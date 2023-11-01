@@ -8,7 +8,7 @@ from processor import overlay_video
 class ObjectLabelingTool:
     def __init__(self, root):
         self.root = root
-        self.root.title("Object Labeling Tool")
+        self.root.title("Entity Labeling Tool")
 
         self.canvas = tk.Canvas(root, cursor="cross")
         self.canvas.pack()
